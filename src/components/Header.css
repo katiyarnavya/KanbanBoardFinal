@@ -1,0 +1,90 @@
+.selection {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    width: 200px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.header {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-toggle {
+    /* background-color: #007bff; */
+    /* color: white; */
+    padding: 6px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Dropdown menu items */
+.dropdown-menu li {
+    display: flex;
+    align-items: center;
+    /* Vertically aligns icon and text */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li a {
+    display: flex;
+    /* Flexbox for icon and text alignment */
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    /* Ensure full clickable area */
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+    color: #007bff;
+}
+
+/* Icon styling */
+.dropdown-icon {
+    width: 20px;
+    height: 20px;
+    /* Space between icon and text */
+}
+
+.display {
+    margin: 0px 10px;
+}
+
+
+/* .header select {
+    padding: 5px;
+  } */
